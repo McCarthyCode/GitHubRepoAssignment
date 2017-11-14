@@ -1,0 +1,24 @@
+rk-laptop:~$ cd Repositories/
+matt@mark-laptop:~/Repositories$ mkdir GitHubRepoAssignment
+matt@mark-laptop:~/Repositories$ cd GitHubRepoAssignment/
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ git init
+Initialized empty Git repository in /home/matt/Repositories/GitHubRepoAssignment/.git/
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ touch README.md
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ echo "This repo's pretty much empty." >> README.md 
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ git add .
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ git commit -m "first commit"
+[master (root-commit) c9be591] first commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README.md
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ git remote add origin https://github.com/mattmc318/GitHubRepoAssignment.git
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ git push -u origin master
+Username for 'https://github.com': mattmc318
+Password for 'https://mattmc318@github.com': 
+Counting objects: 3, done.
+Writing objects: 100% (3/3), 245 bytes | 0 bytes/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/mattmc318/GitHubRepoAssignment.git
+ * [new branch]      master -> master
+Branch master set up to track remote branch master from origin.
+matt@mark-laptop:~/Repositories/GitHubRepoAssignment$ 
+
